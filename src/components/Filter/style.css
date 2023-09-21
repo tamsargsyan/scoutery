@@ -1,0 +1,108 @@
+.player-database-title {
+  color: var(--color-5);
+  font-size: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.filter-wrapper {
+  padding: 71px 32px;
+  background: var(--color-6);
+  position: relative;
+}
+.player-database-bg {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+}
+.filter-items-wrapper {
+  margin-top: 47px;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+}
+.filter-title {
+  align-items: center;
+  color: var(--color-5);
+  font-size: 20px;
+  font-weight: 500;
+  margin-right: 30px;
+  gap: 6px;
+}
+.filter-title img {
+  width: 28px;
+  height: 28px;
+  gap: 6px;
+}
+.filter-items-btn {
+  border-radius: 60px;
+  background: var(--color-2);
+  padding: 8px 14px;
+  color: var(--color-7);
+  /* width: 153px; */
+}
+.filteritems-btn-space {
+  align-items: center;
+  justify-content: space-between;
+  gap: 49px;
+}
+.filteritems-btn-space img {
+  width: 14px;
+  height: 14px;
+}
+.filter-items {
+  gap: 13px;
+  overflow-x: auto;
+}
+.filter-items::-webkit-scrollbar {
+  display: none;
+}
+.filter-items-name-wrapper {
+  color: #b1b1b1;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  width: 153px;
+}
+.filter-items-name-wrapper input {
+  height: 100%;
+  width: 153px;
+  border-radius: 60px;
+  text-align: center;
+  padding: 0 14px;
+}
+.filter-items-name-wrapper input::placeholder {
+  color: var(--color-8);
+}
+.filter-question-wrapper {
+  margin-left: 19px;
+}
+.filter-question-btn {
+  background: var(--color-2);
+  border-radius: 50%;
+  width: 38px;
+  height: 38px;
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.25);
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+}
+.filter-question-btn img {
+  width: 18px;
+  height: 18px;
+}
+.ant-popover-title {
+  margin: 0 !important;
+  min-width: auto !important;
+  width: 102px !important;
+}
+.ant-popover-inner {
+  text-align: center;
+  padding: 6px !important;
+}
+.filter-question-btn,
+.filter-items-name-wrapper input {
+  font-size: 14px;
+}

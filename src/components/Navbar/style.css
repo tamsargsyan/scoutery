@@ -1,0 +1,122 @@
+.navbar-wrapper {
+  width: 100%;
+  background: var(--color-1);
+  justify-content: center;
+  align-items: center;
+  padding: 5px 0;
+}
+.navbar-scoutory-logo {
+  width: 54px;
+  height: 54px;
+  margin-right: 40px;
+}
+.navbar-links-wrapper {
+  gap: 28px;
+}
+.navbar-link {
+  color: var(--color-2);
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.navbar-search-wrapper {
+  position: relative;
+  width: 180px;
+}
+.navbar-search-wrapper .navbar-search-field {
+  background: var(--color-3);
+  color: var(--color-2);
+  border-radius: 2px;
+  padding: 10px 35px 10px 10px;
+  width: 100%;
+  text-align: center;
+}
+.navbar-search-field::placeholder {
+  font-weight: 700;
+  color: var(--color-4);
+}
+.navbar-search-wrapper img {
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+}
+.navbar-login {
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--color-2);
+  background-color: transparent;
+}
+.navbar-search-login-wrapper {
+  align-items: center;
+  gap: 29px;
+  margin-left: 124px;
+}
+.navbar-login,
+.navbar-link,
+.navbar-search-field {
+  font-size: 18px;
+}
+@media screen and (max-width: 1600px) {
+  .navbar-login,
+  .navbar-link,
+  .navbar-search-field {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 1180px) {
+  .navbar-login,
+  .navbar-link,
+  .navbar-search-field {
+    font-size: 14px;
+  }
+  .navbar-scoutory-logo {
+    width: 50px;
+    height: 50px;
+  }
+}
+@media screen and (max-width: 1130px) {
+  .navbar-wrapper {
+    justify-content: space-between;
+    padding: 5px 20px;
+  }
+  .navbar-search-login-wrapper {
+    margin-left: auto;
+  }
+  .navbar-scoutory-logo {
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 920px) {
+  .navbar-login,
+  .navbar-link,
+  .navbar-search-field {
+    font-size: 12px;
+  }
+  .navbar-wrapper {
+    justify-content: space-between;
+    padding: 5px 20px;
+  }
+  .navbar-search-login-wrapper {
+    margin-left: auto;
+    gap: 15px;
+  }
+  .navbar-scoutory-logo {
+    margin-right: auto;
+    width: 40px;
+    height: 40px;
+  }
+  .navbar-search-wrapper .navbar-search-field {
+    padding: 8px 35px 8px 8px;
+  }
+  .navbar-search-wrapper img {
+    width: 14px;
+    height: 14px;
+  }
+  .navbar-links-wrapper {
+    gap: 20px;
+  }
+}
+@media screen and (max-width: 772px) {
+}
