@@ -2,7 +2,7 @@ import Home from "./HomePage";
 
 const pagesData = [
   {
-    path: "/",
+    path: "/301/scoutory",
     element: <Home />,
     title: "home",
   },
