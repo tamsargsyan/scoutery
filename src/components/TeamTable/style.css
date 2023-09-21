@@ -1,0 +1,39 @@
+.ant-table-thead tr th {
+  background: var(--color-9) !important;
+  color: var(--color-2) !important;
+  font-weight: 700 !important;
+}
+.ant-table-thead tr th::before {
+  height: 100% !important;
+  background: #ccccd0 !important;
+}
+.ant-table-tbody .ant-table-cell {
+  color: var(--color-5);
+  font-weight: 600;
+  border-bottom: 1px solid #c4c4c4 !important;
+  font-size: 12px;
+}
+.ant-table-tbody .ant-table-cell:first-child {
+  text-transform: uppercase;
+  background: #e2e2e2;
+  font-size: 14px;
+}
+.ant-table-content {
+  overflow-x: auto;
+}
+.ant-table-tbody .ant-table-cell {
+  padding: 11px 7px !important;
+}
+.ant-table-thead .ant-table-cell {
+  padding: 20px 9px !important;
+}
+.ant-table-thead .ant-table-cell:first-child,
+.ant-table-row .ant-table-cell:first-child {
+  position: sticky;
+  left: 0;
+  z-index: 1;
+}
+.team-logo {
+  width: 24px;
+  height: 24px;
+}

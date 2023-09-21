@@ -1,5 +1,6 @@
 import React from "react";
 import { Progress } from "antd";
+import "./style.css";
 
 const ProgressBar = ({ percent }) => {
   const getColor = () => {
@@ -27,12 +28,12 @@ const ProgressBar = ({ percent }) => {
   };
 
   return (
-    <Progress
-      percent={percent}
-      showInfo={false}
-      strokeColor={getColor()}
-      trailColor='transparent'
-    />
+    <div className='progress-bar'>
+      <div
+        className='progress'
+        style={{ width: `${percent}%`, background: getColor() }}></div>
+      <span className='percent-val'>{percent}</span>
+    </div>
   );
 };
 

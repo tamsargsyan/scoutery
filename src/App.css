@@ -7,6 +7,9 @@
   --color-6: linear-gradient(180deg, #fff 20.8%, #cfcfcf 106.19%);
   --color-7: #79788a;
   --color-8: #b1b1b1;
+  --color-9: #403f4b;
+  --color-10: #e2e2e2;
+  --progress-bar-bg: #ededed;
   --spinner-bg: #ffffffba;
 }
 body {

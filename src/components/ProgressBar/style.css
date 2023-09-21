@@ -1,0 +1,19 @@
+.progress-bar {
+  position: relative;
+  border-radius: 10px;
+  border: 0.5px solid #79a458;
+  background: var(--progress-bar-bg);
+  overflow: hidden;
+  width: 57px;
+}
+.progress-bar .percent-val {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: var(--color-5);
+  font-weight: 600;
+}
+.progress {
+  height: 16px;
+}
