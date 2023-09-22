@@ -11,6 +11,7 @@
   --color-10: #e2e2e2;
   --progress-bar-bg: #ededed;
   --spinner-bg: #ffffffba;
+  --pagination-color: #ed731a;
 }
 body {
   overflow-x: hidden;

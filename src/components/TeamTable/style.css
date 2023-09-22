@@ -37,3 +37,18 @@
   width: 24px;
   height: 24px;
 }
+.ant-pagination {
+  background: var(--color-9) !important;
+  margin: 0 !important;
+  padding: 20px 17px;
+}
+.ant-pagination .anticon svg {
+  fill: var(--pagination-color);
+}
+.ant-pagination-item a {
+  color: var(--color-2) !important;
+}
+.ant-pagination-item-active {
+  background: var(--pagination-color) !important;
+  border: none !important;
+}

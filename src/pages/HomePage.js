@@ -20,7 +20,7 @@ const Home = () => {
     <div className='home-wrapper'>
       <Spinner active={enteredItem} />
       <Filter setEnteredItem={setEnteredItem} />
-      <TeamTable />
+      <TeamTable setEnteredItem={setEnteredItem} />
     </div>
   );
 };
