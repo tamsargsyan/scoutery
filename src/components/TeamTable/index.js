@@ -1,9 +1,8 @@
-import { Space, Table, Tag } from "antd";
+import { Table } from "antd";
 import ProgressBar from "../ProgressBar";
 import LOGO_1 from "../../assets/player-database-logo/1.svg";
 import LOGO_2 from "../../assets/player-database-logo/2.svg";
 import LOGO_3 from "../../assets/player-database-logo/3.svg";
-
 import "./style.css";
 
 const columns = [

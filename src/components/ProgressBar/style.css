@@ -16,4 +16,5 @@
 }
 .progress {
   height: 16px;
+  transition: 1s ease;
 }
