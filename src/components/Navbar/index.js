@@ -1,3 +1,4 @@
+import { useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
 import SCOUTORY_LOGO from "../../assets/scoutory-logo.png";
 import SEARCH_ICON from "../../assets/search.svg";
@@ -32,8 +33,33 @@ const menu = [
 ];
 
 const Navbar = () => {
+  const [isVisible, setIsVisible] = useState(true);
+
+  useEffect(() => {
+    let prevScrollPos = window.pageYOffset;
+
+    const handleScroll = () => {
+      const currentScrollPos = window.pageYOffset;
+
+      if (prevScrollPos > currentScrollPos) {
+        setIsVisible(true);
+      } else {
+        setIsVisible(false);
+      }
+
+      prevScrollPos = currentScrollPos;
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
-    <div className='navbar-wrapper fl'>
+    <div
+      className={`${isVisible && "navbar-wrapper-visible"} navbar-wrapper fl`}>
       <div className='navbar-scoutory-logo'>
         <img src={SCOUTORY_LOGO} alt='Scoutory Logo' />
       </div>
